@@ -15,9 +15,9 @@ function scrollToAnchor(anchorId: string): void {
     <NuxtImg src="/nmar_logo_white.png" class="h-full" />
     <button @click="scrollToAnchor('tattoos')">
       <p
+        class="text-white"
         :class="{
-          'text-black': !scrolled,
-          'text-white': scrolled,
+          'text-black': scrolled,
         }">
         Tattoos
       </p>
